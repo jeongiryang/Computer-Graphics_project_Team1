@@ -1,7 +1,7 @@
 # 컴퓨터그래픽스 과제 : 3D주택 구현
 > **1조 컴퓨터그래픽스 과제 보고서입니다.**
 
-[Github 원격 저장소 바로가기](https://github.com/eryang11188/Computer-Graphics_project_Team1.git)
+[Github 원격 저장소 바로가기](https://github.com/jeongiryang/Computer-Graphics_project_Team1.git)
 
 ##  목차
 - [I. 서론](#i-서론)
@@ -29,7 +29,7 @@
 # I. 서론
 
 ### 팀 소개
-| <a href="https://github.com/eryang11188" target="_blank"><img src="./screenshots/정이량.png" width="100"></a> | <a href="https://github.com/Yoo2un" target="_blank"><img src="./screenshots/이윤정.png" width="100"></a> | <a href="mailto:taewon493@gmail.com"><img src="./screenshots/강태원.png" width="100"></a> | <a href="mailto:hotppiinnkk1111@gmail.com" ><img src="./screenshots/정원제.png" width="100"></a> |
+| <a href="https://github.com/jeongiryang" target="_blank"><img src="./screenshots/정이량.png" width="100"></a> | <a href="https://github.com/Yoo2un" target="_blank"><img src="./screenshots/이윤정.png" width="100"></a> | <a href="mailto:taewon493@gmail.com"><img src="./screenshots/강태원.png" width="100"></a> | <a href="mailto:hotppiinnkk1111@gmail.com" ><img src="./screenshots/정원제.png" width="100"></a> |
 |:---:|:---:|:---:|:---:|
 | **정이량** | **이윤정** | **강태원** | **정원제** |
 | 20222017 | 20243120 | 20243084 | 20222016 |
@@ -197,7 +197,7 @@
     - 협업을 통해 작업하다보니까, 누가 수정한 코드를 이어받거나 PR할 때, 위에서 말한 값들을 통일하지 않으면 굉장히 번거로운 일들이 일어나기 때문 
         
         >실제로 이 과정을 겪으면서, 해더파일을 선언 후에 다시 재작업을 하기로 토의 후, 원점으로 돌아가 검토함
-        > _참고: [PR #1](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/1)_
+        > _참고: [PR #1](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/1)_
 
 > 위의 두 해더 파일 덕분에, 본 프로젝트에서는 Y축을 상방, X축을 좌우, Z축을 전후 방향으로
 **모든 객체는 동일한 월드 좌표계를 기준으로 배치되어** 주택 중심을 기준 피봇으로 삼아 계층적으로 모델링이 가능해짐.
@@ -704,26 +704,26 @@
 
 ### 6. Pull Request 기록
 
-- [PR #1: 월드 좌표 규격(WorldConfig) + 모델행렬 유틸(TransformUtils) 추가](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/1)
-- [PR #2: 이전 PR에서 주석 깨짐 현상 수정](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/2#issue-comment-box)
-- [PR #3: 월드 바닥(땅/도로/인도) 1차 완성 + 휠 줌 추가 + 윈도우 화면 좀 더 크게 실행](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/3)
-- ~~_[PR #4: 지금까지 설명 ](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/4)_~~
-- [PR #5: 월드 좌표 규격 통일2 & main.cpp에서 매직 넘버 수정 ](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/5)
-- [PR #6: 나무 초기 구현_강태원](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/6)
-- [PR #7: 담장과 담장 입구 구현 ](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/7)
-- ~~_[PR #8: 랜덤 구름 추가](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/8)_~~
-- [PR #9: 잔디/구름 구현](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/9)
-- [PR #10: 자동차 구현_정원제 ](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/10)
+- [PR #1: 월드 좌표 규격(WorldConfig) + 모델행렬 유틸(TransformUtils) 추가](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/1)
+- [PR #2: 이전 PR에서 주석 깨짐 현상 수정](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/2#issue-comment-box)
+- [PR #3: 월드 바닥(땅/도로/인도) 1차 완성 + 휠 줌 추가 + 윈도우 화면 좀 더 크게 실행](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/3)
+- ~~_[PR #4: 지금까지 설명 ](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/4)_~~
+- [PR #5: 월드 좌표 규격 통일2 & main.cpp에서 매직 넘버 수정 ](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/5)
+- [PR #6: 나무 초기 구현_강태원](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/6)
+- [PR #7: 담장과 담장 입구 구현 ](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/7)
+- ~~_[PR #8: 랜덤 구름 추가](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/8)_~~
+- [PR #9: 잔디/구름 구현](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/9)
+- [PR #10: 자동차 구현_정원제 ](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/10)
 
-- [PR #11: 모델링 최종 완성!](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/11)
+- [PR #11: 모델링 최종 완성!](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/11)
 
-- [PR ~~#12~~ #13: 1차 렌더링 ]( https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/13 )
+- [PR ~~#12~~ #13: 1차 렌더링 ]( https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/13 )
 
-- [PR ~~#13~~ #14: 2차 렌더링]( https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/14 )
+- [PR ~~#13~~ #14: 2차 렌더링]( https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/14 )
 
-- [[프로젝트 종료] PR ~~#14~~ #15: 3차 렌더링 + 최종 코드 확정 ]( https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/15 )
+- [[프로젝트 종료] PR ~~#14~~ #15: 3차 렌더링 + 최종 코드 확정 ]( https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/15 )
 
-- [[스크린샷 정리] PR ~~#16~~ #17: 스크린샷 브랜치 main에 merge](https://github.com/eryang11188/Computer-Graphics_project_Team1/pull/17)
+- [[스크린샷 정리] PR ~~#16~~ #17: 스크린샷 브랜치 main에 merge](https://github.com/jeongiryang/Computer-Graphics_project_Team1/pull/17)
 
 
 
