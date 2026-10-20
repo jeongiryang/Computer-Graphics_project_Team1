@@ -1,3 +1,47 @@
+# OpenGL 3D House
+
+C++와 OpenGL로 구현한 3D 주택 외부 모델링 팀 프로젝트입니다. 기본 도형을 조합해 집·마당·자동차를 만들고, 조명과 그림자를 적용했습니다.
+
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![GLFW · GLAD · GLM](https://img.shields.io/badge/GLFW%20%C2%B7%20GLAD%20%C2%B7%20GLM-555555?style=flat-square)
+
+[실행 방법](#실행) · [조작법](#조작) · [소스 코드](src/main.cpp) · [팀 과제 보고서](#과제-보고서)
+
+<img src="screenshots/최종%20렌더링%20정면.png" alt="과제 최종 결과: 정면에서 본 OpenGL 주택" width="800">
+
+## 구현
+
+- 주택 1·2층, 차고와 지붕을 계층 모델링으로 구성합니다.
+- 마당·담장·나무·가로등·자동차 등 외부 오브젝트를 배치합니다.
+- 카메라 회전·줌, Blinn–Phong 조명과 섀도 매핑을 적용합니다.
+
+## 실행
+
+Windows / Visual Studio 2022 기준입니다.
+
+1. GLFW, GLAD, GLM의 include·library 경로를 Visual Studio 프로젝트에 연결합니다.
+2. `src/main.cpp`, `src/glad.c`와 `include/TransformUtils.h`, `include/WorldConfig.h`를 프로젝트에 추가합니다.
+3. `include` 경로를 등록하고 GLFW·OpenGL 링크 설정을 완료한 뒤 빌드·실행합니다.
+
+기존 환경 설정과 빌드 화면은 아래 보고서의 **개발 환경 및 실행 방법**에 있습니다.
+
+## 조작
+
+| 입력 | 동작 |
+| --- | --- |
+| `W` `A` `S` `D` | 주택 중심으로 카메라 회전 |
+| 마우스 휠 | 확대·축소 |
+
+## 담당
+
+4인 팀 프로젝트에서 정이량은 조장, 주택 1·2층·차고·가로등 구현을 맡았습니다. 자연환경·담장·나무·자동차 등 팀원별 구현과 협업 기록은 보고서에 정리되어 있습니다.
+
+## 과제 보고서
+
+<details>
+<summary>기존 과제 보고서 펼치기</summary>
+
 # 컴퓨터그래픽스 과제 : 3D주택 구현
 > **1조 컴퓨터그래픽스 과제 보고서입니다.**
 
@@ -826,3 +870,4 @@
 |:-------------:|:---------------:|:-----------:|------:|
 |**▲지붕 문제 1**|**▲지붕 문제 2**|**▲지붕 문제 3**|**▲렌더링 오류(실행 시 빈 화면)**|
 
+</details>
